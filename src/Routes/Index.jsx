@@ -7,6 +7,7 @@ import { Detalhes } from '../Pages/Detalhes'
 import { Precos } from '../Pages/Precos'
 import { Devedores } from '../Pages/Devedores'
 import { GerarRecibo } from '../Pages/GerarRecibo'
+import { Vendas } from '../Pages/Vendas'
 
 export function Routes(){
     const {Navigator, Screen} = createNativeStackNavigator()
@@ -20,6 +21,8 @@ export function Routes(){
                 <Screen name='Precos' component={Precos} options={{headerShown:false}}/>
                 <Screen name='Devedores' component={Devedores} options={{headerShown:false}}/>
                 <Screen name='GerarRecibo' component={GerarRecibo} options={{headerShown:false}}/>
+                <Screen name='Vendas' component={Vendas} options={{headerShown:false}}/>
+
             </Navigator>
         </NavigationContainer>
     )

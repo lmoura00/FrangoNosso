@@ -39,6 +39,10 @@ export function Home(){
                     <AntDesign name="calendar" size={40} color="#f6f6f6" />
                         <Text style={styles.text}>GERAR RECIBO</Text>
                 </TouchableOpacity> 
+                <TouchableOpacity style={styles.lastButton} onPress={()=>navigation.navigate("Vendas")}>
+                    <AntDesign name="calendar" size={40} color="#f6f6f6" />
+                        <Text style={styles.text}>VENDAS</Text>
+                </TouchableOpacity> 
             </View>
         </ScrollView>
         </KeyboardAvoidingView>

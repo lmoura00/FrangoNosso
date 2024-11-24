@@ -2,7 +2,7 @@
   "expo": {
     "name": "FrangoNosso",
     "slug": "FrangoNosso",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "orientation": "portrait",
     "icon": "./src/Images/fran.png",
     "userInterfaceStyle": "light",
